@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidding Marketplace</title>
+    <link rel="stylesheet" href="marketplace2.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {
+                pageLanguage: 'en',  // Set the default language of your website
+                includedLanguages: 'en,hi,ta,te,bn,gu,kn', // Languages you want to include (e.g., English, Hindi, French, Spanish)
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            },
+            'google_translate_element'
+        );
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <div class="logo">
+            <h1>Bidding Marketplace</h1>
+        </div>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="currentbids.html">Current Bids</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Discover, Bid, Win!</h2>
+        <p>Your chance to buy quality products at competitive prices.</p>
+        <a href="#auctions" class="btn">Explore Auctions</a>
+    </section>
+
+    <!-- Active Bids Section -->
+    <section id="auctions" class="auction-section">
+        <h2>Ongoing Auctions</h2>
+        <div class="auction-container">
+            <!-- Auction Card 1 -->
+            <div class="auction-card">
+                <img src="10806601-2T.jpg" alt="Product Image">
+                <h3>Organic Wheat (50kg)</h3>
+                <p>Starting Bid: ₹1000</p>
+                <p>Current Bid: ₹1500</p>
+                <form>
+                    <input type="number" placeholder="Enter your bid" required>
+                    <button type="submit" class="bid-btn">Place Bid</button>
+                </form>
+            </div>
+            <!-- Auction Card 2 -->
+            <div class="auction-card">
+                <img src="images.jpg" alt="Product Image"
+                height="300"
+                width="300">
+                <h3>Fresh Mangoes (10kg)</h3>
+                <p>Starting Bid: ₹500</p>
+                <p>Current Bid: ₹800</p>
+                <form>
+                    <input type="number" placeholder="Enter your bid" required>
+                    <button type="submit" class="bid-btn">Place Bid</button>
+                </form>
+            </div>
+            <!-- Auction Card 3 -->
+            <div class="auction-card">
+                <img src="agriculture-kit.jpg" alt="Product Image"
+                height="300"
+                width="300">
+                <h3>Farming Tools Set</h3>
+                <p>Starting Bid: ₹2000</p>
+                <p>Current Bid: ₹2500</p>
+                <form>
+                    <input type="number" placeholder="Enter your bid" required>
+                    <button type="submit" class="bid-btn">Place Bid</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bidding Marketplace. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Bids</title>
+    <link rel="stylesheet" href="currentbids.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {
+                pageLanguage: 'en',  // Set the default language of your website
+                includedLanguages: 'en,hi,ta,te,bn,gu,kn', // Languages you want to include (e.g., English, Hindi, French, Spanish)
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            },
+            'google_translate_element'
+        );
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <div class="logo">
+            <h1>Current Bids</h1>
+        </div>
+        <nav>
+            <a href="marketplace2.html">Back to Marketplace</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Your Bids</h2>
+        <p>Track the status of your active bids in real time.</p>
+    </section>
+
+    <!-- Current Bids Section -->
+    <section class="bids-section">
+        <h2>Active Bids</h2>
+        <div class="bids-container">
+            <!-- Bid Card 1 -->
+            <div class="bid-card">
+                <h3>Organic Wheat (50kg)</h3>
+                <p><strong>Your Bid:</strong> ₹1,500</p>
+                <p><strong>Highest Bid:</strong> ₹1,800</p>
+                <p><strong>Status:</strong> <span class="status-outbid">Outbid</span></p>
+                <a href="bidding.html" class="btn">Increase Bid</a>
+            </div>
+            <!-- Bid Card 2 -->
+            <div class="bid-card">
+                <h3>Fresh Mangoes (10kg)</h3>
+                <p><strong>Your Bid:</strong> ₹900</p>
+                <p><strong>Highest Bid:</strong> ₹900</p>
+                <p><strong>Status:</strong> <span class="status-leading">Leading</span></p>
+                <a href="bidding.html" class="btn">View Item</a>
+            </div>
+            <!-- Bid Card 3 -->
+            <div class="bid-card">
+                <h3>Farming Tools Set</h3>
+                <p><strong>Your Bid:</strong> ₹2,600</p>
+                <p><strong>Highest Bid:</strong> ₹2,600</p>
+                <p><strong>Status:</strong> <span class="status-leading">Leading</span></p>
+                <a href="bidding.html" class="btn">View Item</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bidding Marketplace. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

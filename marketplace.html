@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace - Agri Connect</title>
+    <link rel="stylesheet" href="marketplace.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {
+                pageLanguage: 'en',  // Set the default language of your website
+                includedLanguages: 'en,hi,ta,te,bn,gu,kn', // Languages you want to include (e.g., English, Hindi, French, Spanish)
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            },
+            'google_translate_element'
+        );
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <div class="navbar">
+            <a href="index.html" class="logo">Agri Connect</a>
+            <nav>
+                <a href="homepage.html">Home</a>
+                <a href="homepage.html#features">Features</a>
+                <a href="about.html">About Us</a>
+                <a href="marketplace.html" class="active">Marketplace</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-marketplace">
+        <h1>Welcome to Agri Connect Marketplace</h1>
+        <p>Buy and Sell Agricultural Products, Tools, and Equipment</p>
+    </section>
+
+    <!-- Search and Filter Section -->
+    <section class="search-filter">
+        <div class="container">
+            <input type="text" class="search-bar" placeholder="Search for crops, tools, or machinery...">
+            <div class="filter-options">
+                <select class="filter-category">
+                    <option value="">Select Category</option>
+                    <option value="crops">Crops</option>
+                    <option value="tools">Tools</option>
+                    <option value="machinery">Machinery</option>
+                    <option value="fertilizers">Fertilizers</option>
+                </select>
+                <input type="text" class="filter-location" placeholder="Enter Location">
+                <button class="btn filter-btn">Apply Filters</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy & Sell Section -->
+    <section class="buy-sell">
+        <div class="container">
+            <div class="buy-section">
+                <h2>Browse Products</h2>
+                <div class="product-list">
+                    <!-- Example Product 1 -->
+                    <div class="product-card">
+                        <img src="wheatseeds.jpg" alt="Product 1"
+                        height="300"
+                        width="300">
+                        <h3>Wheat Seeds</h3>
+                        <p>Price: ₹1000 per kg</p>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                    <!-- Example Product 2 -->
+                    <div class="product-card">
+                        <img src="tractor.webp" alt="Product 2"
+                        height="300"
+                        width="300">
+                        <h3>Tractor</h3>
+                        <p>Price: ₹500,000</p>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                    <!-- Example Product 3 -->
+                    <div class="product-card">
+                        <img src="fertilizer.jpeg" alt="Product 3"
+                        height="300"
+                        width="300">
+                        <h3>Fertilizer Pack</h3>
+                        <p>Price: ₹200</p>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sell Section -->
+            <div class="sell-section">
+                <h2>Sell Your Products</h2>
+                <p>Do you have crops, tools, or equipment to sell? List your products here and reach buyers across the country.</p>
+                <button class="btn">List Your Product</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Agri Connect. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

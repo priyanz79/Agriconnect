@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Agri Connect</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {
+                pageLanguage: 'en',  // Set the default language of your website
+                includedLanguages: 'en,hi,ta,te,bn,gu,kn', // Languages you want to include (e.g., English, Hindi, French, Spanish)
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            },
+            'google_translate_element'
+        );
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <div class="logo">
+            <h1>Agri Connect</h1>
+        </div>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Sign-Up Section -->
+    <section class="signup-section">
+        <div class="container">
+            <h2>Create an Account</h2>
+            <p>Join Agri Connect today and experience the future of agriculture!</p>
+            
+            <form action="register-user.php" method="post" class="signup-form">
+                <!-- User Role -->
+                <label for="role">Sign up as:</label>
+                <select id="role" name="role" required>
+                    <option value="farmer">Farmer</option>
+                    <option value="customer">Customer</option>
+                    <option value="wholesaler">Wholesaler</option>
+                </select>
+
+                <!-- Full Name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <!-- Phone -->
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <!-- Password -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+                <!-- Confirm Password -->
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter your password" required>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+
+            <p class="signin-redirect">Already have an account? <a href="login.html">Log in here</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Agri Connect. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

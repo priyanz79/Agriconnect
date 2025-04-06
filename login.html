@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up - Agri Connect</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {
+                pageLanguage: 'en',  // Set the default language of your website
+                includedLanguages: 'en,hi,ta,te,bn,gu,kn', // Languages you want to include (e.g., English, Hindi, French, Spanish)
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            },
+            'google_translate_element'
+        );
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <div class="navbar">
+            <a href="index.html" class="logo">Agri Connect</a>
+            <nav>
+                <a href="homepage.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Login / Sign Up Section -->
+    <section class="login-signup">
+        <div class="container">
+            <div class="form-container">
+                <h1>Login / Sign Up</h1>
+                <p>Select your role to proceed:</p>
+                
+                <!-- Role Selection -->
+                <div class="role-selection">
+                    <button class="btn" id="farmer-btn">Farmer</button>
+                    <button class="btn" id="customer-btn">Customer</button>
+                    <button class="btn" id="wholesaler-btn">Wholesaler</button>
+                </div>
+
+                <!-- Login Form -->
+                <div id="login-form" class="form-section">
+                    <h2>Login</h2>
+                    <form>
+                        <input type="email" id="login-email" placeholder="Email" required>
+                        <input type="password" id="login-password" placeholder="Password" required>
+                        <button type="submit" class="btn">Login</button>
+                    </form>
+                    <p>Don't have an account? <a href="signup.html" id="signup-link">Sign up</a></p>
+                </div>
+
+                <!-- Sign Up Form -->
+                <div id="signup-form" class="form-section" style="display:none;">
+                    <h2>Sign Up</h2>
+                    <form>
+                        <input type="text" id="signup-name" placeholder="Full Name" required>
+                        <input type="email" id="signup-email" placeholder="Email" required>
+                        <input type="password" id="signup-password" placeholder="Password" required>
+                        <input type="text" id="signup-location" placeholder="Location" required>
+                        <button type="submit" class="btn">Sign Up</button>
+                    </form>
+                    <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+                </div>
+
+                <!-- Role-specific message -->
+                <div id="role-message" class="role-message">
+                    <p id="role-description">Please select your role to proceed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Agri Connect. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

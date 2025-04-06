@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background: #fff;
+    color: #4CAF50;
+}
+
+/* Hero Section */
+.hero {
+    background: #e9f7e9;
+    text-align: center;
+    padding: 2rem;
+    color: #4CAF50;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Bids Section */
+.bids-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.bids-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.bids-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.bid-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.bid-card h3 {
+    margin: 0 0 1rem;
+    color: #4CAF50;
+}
+
+.bid-card p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.bid-card .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.bid-card .btn:hover {
+    background: #45a049;
+}
+
+/* Status Tags */
+.status-outbid {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.status-leading {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2b7a3d;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #2b7a3d;
+}
+
+/* Header */
+header {
+    background-color: #2b7a3d;
+    color: white;
+    padding: 10px 0;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .navbar a {
+    margin: 0 10px;
+    color: white;
+    font-weight: bold;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+/* Hero Section */
+.hero-about {
+    background: url('abot.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+.hero-about h1 {
+    font-size: 2.5em;
+}
+
+.hero-about p {
+    font-size: 1.2em;
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+    background: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.mission-vision h2 {
+    margin-bottom: 10px;
+}
+
+/* Our Journey Section */
+.journey {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.journey p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Team Section */
+.team {
+    background: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+}
+
+/* Footer */
+footer {
+    background: #2b7a3d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #f8c531;
+}
